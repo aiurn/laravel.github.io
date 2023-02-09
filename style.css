@@ -1,0 +1,88 @@
+/* CSS Reset */
+*,html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+}
+.left{
+    background: linear-gradient(purple, lightblue);
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+ul li a{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.right{
+    width: 80%;
+    padding-top: 48px;
+}
+.header{
+    padding-left: 48px;
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: rgb(71, 180, 223);
+}
+h4{
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.isi{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 38px;
+    color: black;
+    width: 550px;
+}
+a.tombol{
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 16px 48px;
+    background-color: rgb(12, 154, 201);
+    font-size: 24px;
+    transition: 0.3s;
+}
+.pr{
+    margin-right: 100px;
+}
+.gambar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+footer{
+    margin-top: 126px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    margin-top: 48px;
+    text-decoration: none;
+    text-align: center;
+}
+footer a p{
+    font-size: 20px;
+}
